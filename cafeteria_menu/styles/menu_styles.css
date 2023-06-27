@@ -1,31 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Elements*/
+
+body {
+    background-image: url(images/coffee_beans_hd.jpg);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-family: Impact;
+}
+
 h1,
 h2,
 p {
     text-align: center;
 }
 
-body {
-    background-image: url(images/coffee_beans_hd.jpg);
+h1 {
+    font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+hr {
+    height: 5px;
+    background-color: #5c1313;
+}
+
+/*Selectors*/
+
 .menu-container {
-    width: 80%;
+    max-width: 500px;
     /*These properties adjust margins and center the element*/
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
+    /*Property to give internal space between borders and text*/
+    padding: 20px;
     background-color: #deb887;
 }
 
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
 }
 
-.flavor {
+.flavor,
+.dessert {
     width: 50%;
     text-align: left;
 }
 
 .price {
     width: 50%;
-    text-align: right; 
+    text-align: right;
+}
+
+.established {
+    font-style: italic;
+}
+
+.section-division {
+    background-color: #d6ab72;
 }
