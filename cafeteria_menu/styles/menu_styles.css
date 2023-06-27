@@ -21,15 +21,25 @@ p {
 
 h1 {
     font-size: 50px;
+    margin-top: 0;
 }
 
 h2 {
     font-size: 40px;
+    margin-bottom: 10px;
 }
 
 hr {
     height: 5px;
     background-color: #5c1313;
+}
+
+img {
+    width: 10%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -5px;
 }
 
 /*Selectors*/
@@ -66,6 +76,41 @@ hr {
     font-style: italic;
 }
 
-.section-division {
+.medium-line {
     background-color: #d6ab72;
+    margin-top: 25px;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/*FOOTER*/
+
+footer {
+    font-size: 15px;
+}
+
+/*Original color of the link*/
+a {
+    color: #000000
+}
+
+/*Color of the link once it was pressed*/
+a:visited {
+    color: #808080;
+}
+
+/*Color of the link if you put the mouse above it*/
+a:hover {
+    color: #5c1313;
+}
+
+/*Color of the link while is being pressed*/
+a:active {
+    color: #ffffff;
+}
+
+.copywright {
+    margin-bottom: 5px;
 }
