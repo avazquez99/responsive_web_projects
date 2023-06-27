@@ -1,0 +1,1 @@
+This project is a simple cafeteria menu where I used HTML to structure it and CSS to give it styles.
